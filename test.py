@@ -10,7 +10,7 @@ load_dotenv()
 app = Flask(__name__)
 
 
-GEMINI_API_KEY = 'AIzaSyAhG-0uqzR-_1k2O-O2bvR6e4qa2GIzFik'
+GEMINI_API_KEY = 'your-api-key'
 GEMINI_API_URL = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_API_KEY}'
 
 
